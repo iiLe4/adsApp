@@ -21,6 +21,7 @@
 		C19D9BFB18D29602001DF361 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19D9BDD18D29602001DF361 /* UIKit.framework */; };
 		C19D9C0318D29602001DF361 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C19D9C0118D29602001DF361 /* InfoPlist.strings */; };
 		C19D9C0518D29602001DF361 /* AdsAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C19D9C0418D29602001DF361 /* AdsAppTests.m */; };
+		C19D9C0F18D29622001DF361 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19D9C0E18D29622001DF361 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		C19D9C0018D29602001DF361 /* AdsAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AdsAppTests-Info.plist"; sourceTree = "<group>"; };
 		C19D9C0218D29602001DF361 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C19D9C0418D29602001DF361 /* AdsAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdsAppTests.m; sourceTree = "<group>"; };
+		C19D9C0E18D29622001DF361 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C19D9C0F18D29622001DF361 /* iAd.framework in Frameworks */,
 				C19D9BDC18D29602001DF361 /* CoreGraphics.framework in Frameworks */,
 				C19D9BDE18D29602001DF361 /* UIKit.framework in Frameworks */,
 				C19D9BDA18D29602001DF361 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		C19D9BD818D29602001DF361 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C19D9C0E18D29622001DF361 /* iAd.framework */,
 				C19D9BD918D29602001DF361 /* Foundation.framework */,
 				C19D9BDB18D29602001DF361 /* CoreGraphics.framework */,
 				C19D9BDD18D29602001DF361 /* UIKit.framework */,
